@@ -5,9 +5,21 @@
     commit -m “message”: note nội dung thay đổi cho lần commit ở Staging Area
 
 2/ 
-a. Working directory -->  Tạo 3 file: file1, file2, file3
+a. Working directory -->  file1, file2, file3
 b. Working directory -->  Chạy lệnh: git init 
-c. Staging Area --> Chạy lệnh: git commit -m”init project”
-d. Staging Area --> hạy lệnh: git add file1
+c. Working directory -->  file1, file2, file3
+
+d. Chạy lệnh: git add file1
++ Working directory: file2, file3
++ Staging Area: file1
++ Repository: <empty>
+
 e. Staging Area --> Chạy lệnh: git commit -m”add file1”
++ Working directory: file2, file3
++ Staging Area: <empty>
++ Repository: file1
+
 f. Staging Area --> Chạy lệnh: git add file
++ Working directory: <empty>
++ Staging Area:  file2, file3
++ Repository: <empty>
